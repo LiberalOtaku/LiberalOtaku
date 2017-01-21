@@ -1,3 +1,7 @@
-.twitter-follow-button, .twitter-timeline {
-  width: 100%;
+.twitter-follow-button {
+    margin-left: 5%;
+}
+
+.twitter-timeline {
+    width: 100%;
 }
