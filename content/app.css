@@ -3,6 +3,11 @@
   margin-bottom: 15px;
 }
 
+.social-links {
+  width: 100%;
+  margin-top: 15px;
+}
+
 .social-links td {
   width: 25%;
   text-align: center;
@@ -24,6 +29,6 @@
     margin: 0 0 5% 5%;
 }
 
-.social-links, .twitter-timeline {
+.twitter-timeline {
     width: 100%;
 }
