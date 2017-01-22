@@ -3,10 +3,27 @@
   margin-bottom: 15px;
 }
 
+.social-links td {
+  width: 25%;
+  text-align: center;
+}
+
+.social-links a {
+  color: #777;
+}
+
+.social-links a:hover, .social-links a:focus {
+  color: #333;
+}
+
+.center {
+  text-align: center;
+}
+
 .twitter-follow-button {
     margin: 0 0 5% 5%;
 }
 
-.twitter-timeline {
+.social-links, .twitter-timeline {
     width: 100%;
 }
