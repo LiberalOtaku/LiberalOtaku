@@ -8,16 +8,26 @@
   margin-top: 15px;
 }
 
+.footer-links {
+  width: 100%;
+}
+
 .social-links td {
   width: 25%;
   text-align: center;
 }
 
-.social-links a {
+.footer-links td {
+  width: 20%;
+  text-align: center;
+}
+
+.social-links a, .footer-links a {
   color: #777;
 }
 
-.social-links a:hover, .social-links a:focus {
+.social-links a:hover, .social-links a:focus,
+.footer-links a:hover, .footer-links a:focus {
   color: #333;
 }
 
