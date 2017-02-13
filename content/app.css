@@ -8,26 +8,32 @@
   margin-top: 15px;
 }
 
+.contact-links {
+  width: 80%;
+  margin: 30px 0 30px 0;
+}
+
 .footer-links {
   width: 100%;
 }
 
-.social-links td {
+.social-links td, .contact-links td {
   width: 25%;
-  text-align: center;
 }
 
 .footer-links td {
   width: 20%;
+}
+
+.links td {
   text-align: center;
 }
 
-.social-links a, .footer-links a {
+.links a {
   color: #777;
 }
 
-.social-links a:hover, .social-links a:focus,
-.footer-links a:hover, .footer-links a:focus {
+.links a:hover, .links a:focus {
   color: #333;
 }
 
