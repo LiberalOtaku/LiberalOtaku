@@ -32,5 +32,15 @@
 }
 
 .twitter-follow-button {
-    margin: 0 0 5% 5%;
+  margin: 0 0 5% 5%;
+}
+
+.project-post {
+  margin: 0;
+  padding: 30px 0 0 0;
+}
+
+.project-img {
+  border: 1px solid gray;
+  margin-bottom: 10px;
 }
