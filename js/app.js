@@ -1,5 +1,6 @@
 $(document).ready(() => {
   // Load components
+  $("#blog-header").load("components/blog-header.html");
   $("#blog-sidebar").load("components/blog-sidebar.html");
   $("#footer").load("components/footer.html");
   $("#navbar").load("components/navbar.html", () => {
