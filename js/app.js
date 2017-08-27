@@ -1,4 +1,7 @@
 $(document).ready(() => {
+  // Get script arguments
+  var page_id = $("#my-script").attr("page-id");
+
   // Load components
   $("#blog-header").load("components/blog-header.html");
   $("#blog-sidebar").load("components/blog-sidebar.html");
@@ -6,7 +9,6 @@ $(document).ready(() => {
   $("#navbar").load("components/navbar.html", () => {
 
     // Make navbar tab on current page active
-    var page_id = $("#my-script").attr("page-id");
     var current_tab = $("#bs-example-navbar-collapse-1 li").eq(page_id);
 
     current_tab.addClass("active");
