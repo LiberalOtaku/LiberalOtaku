@@ -1,46 +1,227 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <title>Edward Ly</title>
+
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Edward Ly | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons - from https://realfavicongenerator.net/ -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="img/favicons/manifest.json">
-    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="img/favicons/favicon.ico">
-    <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/manifest.json">
+    <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+    <meta name="msapplication-config" content="assets/images/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://getbootstrap.com/docs/3.3/examples/sticky-footer-navbar/sticky-footer-navbar.css">
-    <link rel="stylesheet" href="https://getbootstrap.com/docs/3.3/examples/blog/blog.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="content/app.css">
-  </head>
-  <body>
-    <div id="navbar"></div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <!-- Main Page Content -->
-    <div class="container wrap">
-      <div id="blog-header"></div>
-      <div class="row">
-        <div class="col-xs-12 col-md-8 blog-main">
-          <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ0Oy22cpharcyRIYQAc0aIcEEF3o5S1bDeIsCvJO9FyBzk-IgDTvtiuYqN59RwP-7PAw2AUen_Li8P/pub?embedded=true"></iframe>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4b3a76b496.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="bg-light">
+    <div class="container">
+      <!-- Header Content -->
+      <div class="row mt-5 mb-4">
+        <div class="col text-center">
+          <img class="img-fluid shadow rounded-circle" width="256px" src="assets/images/avatar.jpg" alt="Avatar">
         </div>
-        <div id="blog-sidebar"></div>
       </div>
+      <div class="row mb-2">
+        <div class="col text-center">
+          <p class="h1">Edward Ly</p>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col text-center">
+          <a class="text-secondary" target="_blank" href="https://twitter.com/_edward_ly" aria-label="Twitter"><i class="fab fa-twitter fa-3x mx-4 my-2" title="Twitter"></i></a>
+          <a class="text-secondary" target="_blank" href="https://github.com/edward-ly" aria-label="GitHub"><i class="fab fa-github fa-3x mx-4 my-2" title="GitHub"></i></a>
+          <a class="text-secondary" target="_blank" href="https://www.linkedin.com/in/esly14" aria-label="LinkedIn"><i class="fab fa-linkedin fa-3x mx-4 my-2" title="LinkedIn"></i></a>
+          <a class="text-secondary" target="_blank" href="mailto:edward.ly@pm.me" aria-label="Email"><i class="fas fa-envelope fa-3x mx-4 my-2" title="Email"></i></a>
+        </div>
+      </div>
+
+      <!-- Tabbed Content -->
+      <div class="row mb-2">
+        <div class="col">
+          <!-- Tabs -->
+          <ul class="nav nav-tabs nav-justified h5" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="software-tab" data-toggle="tab" href="#software" role="tab" aria-controls="software" aria-selected="false">Software</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="new-tab" data-toggle="tab" href="#new" role="tab" aria-controls="new" aria-selected="false">???</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <!-- Home Tab Content -->
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="container">
+                <div class="row mt-4">
+                  <div class="col text-center">
+                    <p class="h2 mb-3">Résumé</p>
+                    <p class="h5"><a href="assets/files/resume_letter.pdf">Download PDF (Letter Size)</a></p>
+                    <p class="h5 mb-4"><a href="assets/files/resume_a4.pdf">Download PDF (A4 Size)</a></p>
+                    <div class="col text-center mb-4">
+                      <img class="img-fluid shadow-sm" src="assets/images/previews/resume_letter.png" alt="Résumé">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Profile Tab Content -->
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+              <div class="container">
+                <div class="row mt-4">
+                  <div class="col">
+                    <p class="h2">About Me</p>
+                    <ul>
+                      <li><strong>Hometown:</strong> Portland, Oregon, United States</li>
+                      <li><strong>Date of Birth:</strong> August 16th</li>
+                      <li><strong>Ethnicity:</strong> Vietnamese</li>
+                      <li><strong>Blood Type:</strong> AB+</li>
+                    </ul>
+
+                    <p class="h2">Education</p>
+                    <ul>
+                      <li><em>M.Sc. in Computer Science and Engineering</em> - University of Aizu (Aizu-Wakamatsu, Fukushima, Japan) (expected September 2020)</li>
+                      <li><em>B.A. in Computer Science and Mathematics</em> - Earlham College (Richmond, Indiana, United States)</li>
+                    </ul>
+
+                    <p class="h2">Publications</p>
+                    <ul>
+                      <li><strong>Edward Ly</strong> and Julián Villegas. Genetic Reverb: Synthesizing Artificial Reverberant Fields via Genetic Algorithms. In <em>Proceedings of the 9th International Conference on Computational Intelligence in Music, Sound, Art and Design (EvoMUSART 2020)</em>, pp. 90–103, Apr. 2020. DOI: <a href="https://doi.org/10.1007/978-3-030-43859-3_7">10.1007/978-3-030-43859-3_7</a>.</li>
+                    </ul>
+
+                    <p><span class="h2">Recommended Software</span> &nbsp; <span class="text-muted">(not sponsored or affiliated, and is not an exhaustive list)</span></p>
+                    <ul>
+                      <li class="h4 mt-3 mb-2">Text Editors/IDEs</li>
+                      <ul>
+                        <li><a target="_blank" href="https://atom.io/">Atom</a></li>
+                        <li><a target="_blank" href="https://notepad-plus-plus.org/">Notepad++</a></li>
+                        <li><a target="_blank" href="https://www.overleaf.com/">Overleaf</a></li>
+                      </ul>
+
+                      <li class="h4 mt-3 mb-2">Multimedia (Music/Audio)</li>
+                      <ul>
+                        <li><a target="_blank" href="https://www.ableton.com/en/">Ableton Live</a></li>
+                        <li><a target="_blank" href="https://www.audacityteam.org/">Audacity</a></li>
+                        <li><a target="_blank" href="http://www.exactaudiocopy.de/en/">Exact Audio Copy</a></li>
+                        <li><a target="_blank" href="https://www.foobar2000.org/">foobar2000</a></li>
+                        <li><a target="_blank" href="https://www.mixxx.org/">Mixxx</a></li>
+                        <li><a target="_blank" href="https://www.extreamsd.com/index.php/products/usb-audio-player-pro">USB Audio Player PRO</a></li>
+                      </ul>
+
+                      <li class="h4 mt-3 mb-2">Multimedia (Images)</li>
+                      <ul>
+                        <li><a target="_blank" href="https://www.gimp.org/">GIMP</a></li>
+                        <li><a target="_blank" href="https://imageglass.org/">ImageGlass</a></li>
+                      </ul>
+
+                      <li class="h4 mt-3 mb-2">Multimedia (Video/Graphics)</li>
+                      <ul>
+                        <li><a target="_blank" href="https://www.blender.org/">Blender</a></li>
+                        <li><a target="_blank" href="https://obsproject.com/">OBS Studio</a></li>
+                        <li><a target="_blank" href="https://www.vegascreativesoftware.com/us/vegas-pro/">VEGAS Pro</a></li>
+                        <li><a target="_blank" href="https://www.videolan.org/vlc/">VLC Media Player</a></li>
+                        <li><a target="_blank" href="https://vanced.app/">YouTube Vanced</a></li>
+                      </ul>
+
+                      <li class="h4 mt-3 mb-2">Email</li>
+                      <ul>
+                        <li><a target="_blank" href="https://email.faircode.eu/">FairEmail</a></li>
+                        <li><a target="_blank" href="https://protonmail.com/">ProtonMail</a></li>
+                        <li><a target="_blank" href="https://www.thunderbird.net/">Thunderbird</a></li>
+                      </ul>
+
+                      <li class="h4 mt-3 mb-2">Online Safety/Security</li>
+                      <ul>
+                        <li><a target="_blank" href="https://www.expressvpn.com/">ExpressVPN</a></li>
+                        <li><a target="_blank" href="https://masterpassword.app/">Master Password</a></li>
+                      </ul>
+
+                      <li class="h4 mt-3 mb-2">Education/Learning</li>
+                      <ul>
+                        <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.craxic.akebifree">Akebi Japanese Dictionary</a></li>
+                        <li><a target="_blank" href="https://www.zotero.org/">Zotero</a></li>
+                      </ul>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Software Tab Content -->
+            <div class="tab-pane fade" id="software" role="tabpanel" aria-labelledby="software-tab">
+              <div class="container">
+                <div class="row mt-4 mb-2">
+                  <div class="col text-center">
+                    <p class="h2 mb-5">Software Projects</p>
+                    <div class="mb-5">
+                      <p class="h3">Genetic Reverb</p>
+                      <figure class="figure">
+                        <img class="figure-img img-fluid shadow-sm" width="640px" src="assets/images/previews/genetic_reverb.png" alt="Genetic Reverb">
+                        <figcaption class="figure-caption">Genetic Reverb: A VST 2 plugin that performs convolution reverb from impulse responses generated via a genetic algorithm.</figcaption>
+                      </figure>
+                      <p>Related Papers:<br><a target="_blank" href="#">Master's Thesis (University of Aizu, September 2020, <span class="text-muted">coming soon</span>)</a><br><a target="_blank" href="https://doi.org/10.1007/978-3-030-43859-3_7">Conference Proceeding (EvoMUSART, April 2020)</a></p>
+                      <p>View the source code: <a target="_blank" href="https://github.com/edward-ly/GeneticReverb">GitHub</a></p>
+                    </div>
+                    <div class="mb-5">
+                      <p class="h3">Kinect Konductor</p>
+                      <figure class="figure">
+                        <img class="figure-img img-fluid shadow-sm" width="640px" src="assets/images/previews/konductor.png" alt="Kinect Konductor">
+                        <figcaption class="figure-caption">Kinect Konductor: A virtual orchestra conductor application using the Microsoft Kinect for Windows v1.</figcaption>
+                      </figure>
+                      <p><a target="_blank" href="https://youtu.be/bJLTbwUDpNs">See the Program in Action</a></p>
+                      <p>Related Papers:<br><a target="_blank" href="https://github.com/edward-ly/kinect-konductor/blob/master/pdf/kinect-konductor.pdf">Senior Capstone Thesis (Earlham College, December 2016)</a></p>
+                      <p>View the source code: <a target="_blank" href="https://github.com/edward-ly/kinect-konductor">GitHub</a> | <a target="_blank" href="https://gitlab.cluster.earlham.edu/seniors/edward1617">GitLab</a></p>
+                    </div>
+
+                    <p class="h2 my-5">Software Contributions</p>
+                    <div class="mb-5">
+                      <p class="h3">We Vote</p>
+                      <figure class="figure">
+                        <img class="figure-img img-fluid shadow-sm" width="640px" src="assets/images/previews/we_vote.png" alt="We Vote">
+                        <figcaption class="figure-caption">We Vote: A React-based social networking application that brings ballot information to the voters.</figcaption>
+                      </figure>
+                      <p><a target="_blank" href="https://wevote.us/welcome">Go to Website (Beta)</a></p>
+                      <p>View the source code: <a target="_blank" href="https://github.com/wevote/WebApp">GitHub</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ??? Tab Content -->
+            <div class="tab-pane fade" id="new" role="tabpanel" aria-labelledby="new-tab">
+              <div class="container">
+                <div class="row mt-4 mb-2">
+                  <div class="col">
+                    <p>Coming soon...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-muted">Copyright &#169; 2020 Edward Ly. &nbsp; Last Updated: 8 August 2020</p>
     </div>
 
-    <div id="footer"></div>
-
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/2.1.1/what-input.min.js"></script>
-    <script src="js/app.js" id="my-script" page-id="0"></script>
+    <!-- Bootstrap JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>
